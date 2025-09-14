@@ -46,7 +46,7 @@ namespace Publisher
             }
             catch(Exception ex)
             {
-                Console.WriteLine("Error in sending API response: ", ex);
+                Console.WriteLine("Error in sending API response: "+ ex);
             }
             
                

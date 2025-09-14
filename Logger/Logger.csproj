@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<EnableDyamicLoading>true</EnableDyamicLoading>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IMonitorPlugin\IMonitorPluginBase.csproj">
+		<Private>false</Private>
+		<ExcludeAssets>runtime</ExcludeAssets>
+	</ProjectReference>
+  </ItemGroup>
+
+</Project>

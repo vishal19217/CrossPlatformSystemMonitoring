@@ -3,9 +3,9 @@
 1. Clone the repositry containing the solution from the https://github.com/vishal19217/CrossPlatformSystemMonitoring.
 2. Change the working directory to the base folder containing (the solution and projects folder). 
 3. build the solution using below commands:- 
-    a. dotnet build -c Release
+    1. dotnet build -c Release
 4. To publish the package using below commands:
-    a. dotnet publish -c Release -r win-x64 --self-contained true
+    1. dotnet publish -c Release -r win-x64 --self-contained true
 
 # B. Running the application
 1. After successfully publishing. Go to published folder : "%BASE_FOLDER%\Cross Platform System Monitor\bin\Release\net9.0\win-x64\publish"
@@ -15,11 +15,11 @@
 5. Double click and run the "%BASE_FOLDER%Cross Platform System Monitor\bin\Release\net9.0\win-x64\publish\Cross Platform System Monitor.exe"
 
 
-# C. Adding the plguins into the publish folder
+# C. Adding the plugins into the publish folder
 1. For adding each plugins:- 
-    a. Go to the plugin publish folder "%BASE_FOLDER%\Cross Platform System Monitor\Logger\bin\Release\net9.0\win-x64\publish" and copy the Logger.dll file .
+    1. Go to the plugin publish folder "%BASE_FOLDER%\Cross Platform System Monitor\Logger\bin\Release\net9.0\win-x64\publish" and copy the Logger.dll file .
        Add the Logger.dll file to the Plugin folder created in B.2 step.
-    b. Go to the plugin publish folder "%BASE_FOLDER%\Cross Platform System Monitor\Publisher\bin\Release\net9.0\win-x64\publish" and copy the Publisher.dll file .
+    2. Go to the plugin publish folder "%BASE_FOLDER%\Cross Platform System Monitor\Publisher\bin\Release\net9.0\win-x64\publish" and copy the Publisher.dll file .
        Add the Publisher.dll file to the Plugin folder created in B.2 step.
 
      
